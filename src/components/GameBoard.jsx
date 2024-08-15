@@ -16,6 +16,7 @@ export default function GameBoard({ onSelectSquare, activePlayerSymbol }) {
       return updatedBoard;
     });
 
+    //Calling the parent components prop this is called as state up
     onSelectSquare();
   }
 
